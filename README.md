@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Calendar Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based calendar application that allows users to view, add, edit, and delete events. The application includes features such as filtering events by category, adding new categories, and a modal for editing and deleting events. The app uses Beeceptor for mocking API requests and is designed with a responsive layout to provide a smooth user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Event Management**: Add, edit, and delete events with details including title, date, and category.
+- **Category Filtering**: Filter events based on categories, with the option to add new categories.
+- **Modal Support**: A modal interface for editing and deleting events.
+- **Responsive Design**: The application adjusts its layout based on screen size for optimal viewing on both desktop and mobile devices.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view the live demo of the application [here](#).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the Project Directory**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd your-repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install Dependencies**
 
-### `npm run eject`
+   ```bash
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Run the Application**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   
+This will start the development server and open the application in your default web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
+Add an Event
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Click on "Add New Event" to open the form. Fill out the event details and click "Add Event" to save.
 
-## Learn More
+Edit an Event
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Click on an existing event to open the modal. Modify the event details and click "Save Changes" to update.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Delete an Event
 
-### Code Splitting
+Open the modal for the event you want to delete and click "Delete Event."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Filter Events
 
-### Analyzing the Bundle Size
+Use the dropdown in the filter section to select a category and view events belonging to that category.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Add a New Category
 
-### Making a Progressive Web App
+Enter a new category name in the input field and click "Add Category" to include it in the category filter.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Code Structure
 
-### Advanced Configuration
+src: Contains all source code files.
+components: React components for the application.
+styles: Styled-components used in the application.
+App.js: Main application component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies Used
+React: JavaScript library for building user interfaces.
+Styled-Components: Library for styling React components using tagged template literals.
 
-### Deployment
+## Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run build` fails to minify
+## Acknowledgements
+Styled-Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Just replace the placeholder URLs and details with the actual information relevant to your project.
