@@ -11,7 +11,7 @@ A React-based calendar application that allows users to view, add, edit, and del
 
 ## Live Demo
 
-You can view the live demo of the application [https://calendar-nit3.netlify.app/](#).
+You can view the live demo of the application [here](https://calendar-nit3.netlify.app/).
 
 ## Installation
 
