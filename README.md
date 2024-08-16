@@ -40,36 +40,36 @@ To run the project locally, follow these steps:
 This will start the development server and open the application in your default web browser.
 
 ## Usage
-Add an Event
+- Add an Event
 
-Click on "Add New Event" to open the form. Fill out the event details and click "Add Event" to save.
+- Click on "Add New Event" to open the form. Fill out the event details and click "Add Event" to save.
 
-Edit an Event
+- Edit an Event
 
-Click on an existing event to open the modal. Modify the event details and click "Save Changes" to update.
+- Click on an existing event to open the modal. Modify the event details and click "Save Changes" to update.
 
-Delete an Event
+- Delete an Event
 
-Open the modal for the event you want to delete and click "Delete Event."
+- Open the modal for the event you want to delete and click "Delete Event."
 
-Filter Events
+- Filter Events
 
-Use the dropdown in the filter section to select a category and view events belonging to that category.
+- Use the dropdown in the filter section to select a category and view events belonging to that category.
 
-Add a New Category
+- dd a New Category
 
-Enter a new category name in the input field and click "Add Category" to include it in the category filter.
+- Enter a new category name in the input field and click "Add Category" to include it in the category filter.
 
 ## Code Structure
 
-src: Contains all source code files.
-components: React components for the application.
-styles: Styled-components used in the application.
-App.js: Main application component.
+- **src**: Contains all source code files.
+- **components**: React components for the application.
+- **styles**: Styled-components used in the application.
+- **App.js**: Main application component.
 
 ## Technologies Used
-React: JavaScript library for building user interfaces.
-Styled-Components: Library for styling React components using tagged template literals.
+- **React**: JavaScript library for building user interfaces.
+- **Styled-Components**: Library for styling React components using tagged template literals.
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
